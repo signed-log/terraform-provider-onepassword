@@ -9,8 +9,8 @@ import (
 	"github.com/hashicorp/terraform-plugin-testing/helper/resource"
 	"github.com/hashicorp/terraform-plugin-testing/terraform"
 
-	"github.com/1Password/terraform-provider-onepassword/v2/internal/onepassword/model"
-	"github.com/1Password/terraform-provider-onepassword/v2/test/e2e/utils/client"
+	"github.com/1Password/terraform-provider-onepassword/v3/internal/onepassword/model"
+	"github.com/1Password/terraform-provider-onepassword/v3/test/e2e/utils/client"
 )
 
 // RegisterItem registers a cleanup function that will delete an item even if the test fails

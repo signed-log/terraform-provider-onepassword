@@ -3,7 +3,7 @@ package attributes
 import (
 	"fmt"
 
-	"github.com/1Password/terraform-provider-onepassword/v2/internal/onepassword/model"
+	"github.com/1Password/terraform-provider-onepassword/v3/internal/onepassword/model"
 )
 
 func BuildUpdatedItemAttrs(currentItem *model.Item, updatedAttrs map[string]any) *model.Item {

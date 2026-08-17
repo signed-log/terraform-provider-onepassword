@@ -3,7 +3,7 @@ package provider
 import (
 	"strings"
 
-	"github.com/1Password/terraform-provider-onepassword/v2/internal/onepassword/model"
+	"github.com/1Password/terraform-provider-onepassword/v3/internal/onepassword/model"
 )
 
 const (

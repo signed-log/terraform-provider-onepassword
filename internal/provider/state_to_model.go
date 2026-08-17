@@ -8,7 +8,7 @@ import (
 	"github.com/hashicorp/go-uuid"
 	"github.com/hashicorp/terraform-plugin-framework/diag"
 
-	"github.com/1Password/terraform-provider-onepassword/v2/internal/onepassword/model"
+	"github.com/1Password/terraform-provider-onepassword/v3/internal/onepassword/model"
 )
 
 func toModelLoginFields(state OnePasswordItemResourceModel, password string, recipe *model.GeneratorRecipe) []model.ItemField {

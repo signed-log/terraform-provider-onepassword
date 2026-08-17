@@ -7,7 +7,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/1Password/terraform-provider-onepassword/v2/test/e2e/utils/client"
+	"github.com/1Password/terraform-provider-onepassword/v3/test/e2e/utils/client"
 )
 
 var (

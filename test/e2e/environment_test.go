@@ -7,7 +7,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-testing/helper/resource"
 
-	tfconfig "github.com/1Password/terraform-provider-onepassword/v2/test/e2e/terraform/config"
+	tfconfig "github.com/1Password/terraform-provider-onepassword/v3/test/e2e/terraform/config"
 )
 
 // environmentDataSourceConfig returns Terraform config for the onepassword_environment datasource. Private to this test.

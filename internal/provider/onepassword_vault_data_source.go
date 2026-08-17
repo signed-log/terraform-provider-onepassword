@@ -12,8 +12,8 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/types"
 	"github.com/hashicorp/terraform-plugin-log/tflog"
 
-	"github.com/1Password/terraform-provider-onepassword/v2/internal/onepassword"
-	"github.com/1Password/terraform-provider-onepassword/v2/internal/onepassword/model"
+	"github.com/1Password/terraform-provider-onepassword/v3/internal/onepassword"
+	"github.com/1Password/terraform-provider-onepassword/v3/internal/onepassword/model"
 )
 
 // Ensure provider defined types fully satisfy framework interfaces.
