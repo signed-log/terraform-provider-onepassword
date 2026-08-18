@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/1Password/terraform-provider-onepassword/v2/internal/onepassword/connect"
-	"github.com/1Password/terraform-provider-onepassword/v2/internal/onepassword/model"
-	"github.com/1Password/terraform-provider-onepassword/v2/internal/onepassword/sdk"
+	"github.com/1Password/terraform-provider-onepassword/v3/internal/onepassword/connect"
+	"github.com/1Password/terraform-provider-onepassword/v3/internal/onepassword/model"
+	"github.com/1Password/terraform-provider-onepassword/v3/internal/onepassword/sdk"
 )
 
 // Client is a subset of connect.Client with context added.

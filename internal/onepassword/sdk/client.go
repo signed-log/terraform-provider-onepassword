@@ -7,8 +7,8 @@ import (
 
 	sdk "github.com/1password/onepassword-sdk-go"
 
-	"github.com/1Password/terraform-provider-onepassword/v2/internal/onepassword/model"
-	"github.com/1Password/terraform-provider-onepassword/v2/internal/onepassword/util"
+	"github.com/1Password/terraform-provider-onepassword/v3/internal/onepassword/model"
+	"github.com/1Password/terraform-provider-onepassword/v3/internal/onepassword/util"
 )
 
 type Client struct {

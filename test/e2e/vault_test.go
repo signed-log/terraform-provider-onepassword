@@ -7,8 +7,8 @@ import (
 	"github.com/hashicorp/terraform-plugin-go/tfprotov6"
 	"github.com/hashicorp/terraform-plugin-testing/helper/resource"
 
-	"github.com/1Password/terraform-provider-onepassword/v2/internal/provider"
-	tfconfig "github.com/1Password/terraform-provider-onepassword/v2/test/e2e/terraform/config"
+	"github.com/1Password/terraform-provider-onepassword/v3/internal/provider"
+	tfconfig "github.com/1Password/terraform-provider-onepassword/v3/test/e2e/terraform/config"
 )
 
 // testAccProtoV6ProviderFactories are used to instantiate a provider during

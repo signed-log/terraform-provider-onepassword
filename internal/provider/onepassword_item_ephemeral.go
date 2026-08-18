@@ -14,9 +14,9 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/schema/validator"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 
-	"github.com/1Password/terraform-provider-onepassword/v2/internal/onepassword"
-	"github.com/1Password/terraform-provider-onepassword/v2/internal/onepassword/model"
-	opssh "github.com/1Password/terraform-provider-onepassword/v2/internal/onepassword/ssh"
+	"github.com/1Password/terraform-provider-onepassword/v3/internal/onepassword"
+	"github.com/1Password/terraform-provider-onepassword/v3/internal/onepassword/model"
+	opssh "github.com/1Password/terraform-provider-onepassword/v3/internal/onepassword/ssh"
 )
 
 // Ensure provider defined types fully satisfy framework interfaces.

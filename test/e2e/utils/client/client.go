@@ -4,7 +4,7 @@ import (
 	"context"
 	"os"
 
-	"github.com/1Password/terraform-provider-onepassword/v2/internal/onepassword"
+	"github.com/1Password/terraform-provider-onepassword/v3/internal/onepassword"
 )
 
 func CreateTestClient(ctx context.Context) (onepassword.Client, error) {
